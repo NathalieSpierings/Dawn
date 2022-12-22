@@ -3126,8 +3126,8 @@
 		"marquee_banner": {
 			"name": "Marquee banner",
 			"settings": {
-				"show_marquee": {
-					"label": "Marquee tonen"
+				"enable_marquee": {
+					"label": "Marquee inschakelen"
 				}
 			}
 		},

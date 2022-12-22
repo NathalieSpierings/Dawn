@@ -127,6 +127,7 @@ wildhoff.cookieConsent = function(){
 	}
 }
 
+
 wildhoff.hero = function(){
     $(window).scroll(function () { 
         var Num = $(window).scrollTop() / 500;
@@ -148,7 +149,17 @@ wildhoff.dropdown = function(){
 	});
 }
 
-// Drawer
+wildhoff.passwordToggle = function(){
+	$('.password .prefix').on('click', function (e) {
+		e.preventDefault();
+		var $input = $(this).parent().find('input');
+		$(this).toggleClass('on');
+		$input.attr('type', function (i, attr) {
+			return attr === 'text' ? 'password' : 'text';
+		});
+	});
+}
+
 wildhoff.drawer = function(){
 	$('[data-action="drawer"]').on('click', function(){
 		$('.wh-drawer').addClass('shown');
@@ -159,7 +170,6 @@ wildhoff.drawer = function(){
 	});	
 }
 
-// Login drawer
 wildhoff.logindrawer = function(){
 	$('[data-action="forgot-password"]').on('click', function(){
 		$('.wh-login__content').removeClass('shown');
@@ -185,16 +195,17 @@ wildhoff.logindrawer = function(){
 }
 
 wildhoff.marquee = function() {	
-	var marquee = '';
+	var $banner = $('#MarqueeBanner'),
+		currentBanner = '';
 
 	$('[data-dismiss="marquee"]').on('click', function(){
-		wildhoff.setCookie('wildhoff_marquee', 1, 1);
-		$('.wh-marquee').slideUp();
+		wildhoff.setCookie('marquee-banner', 1, 1);
+		$banner.slideUp();
 	});
 
-	marquee = wildhoff.getCookie('wildhoff_marquee');
-	if(marquee != 1 ){
-		$('.wh-marquee').slideDown();
+	currentBanner = wildhoff.getCookie('marquee-banner');
+	if(currentBanner != 1 ){
+		$banner.slideDown();
 	}
 };
 

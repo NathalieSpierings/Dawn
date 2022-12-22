@@ -96,7 +96,7 @@
       }
     },
     "masonery": {
-      "type": "wh-masonery",
+      "type": "masonery",
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -225,6 +225,7 @@
     "image_banner",
     "rich_text",
     "featured_collection",
+    "masonery",
     "collage",
     "video",
     "multicolumn"

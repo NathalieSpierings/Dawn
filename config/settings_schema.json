@@ -1187,8 +1187,8 @@
         "settings": [
             {
                 "default": false,
-                "id": "show_marquee",
-                "label": "t:settings_schema.marquee_banner.settings.show_marquee.label",
+                "id": "enable_marquee",
+                "label": "t:settings_schema.marquee_banner.settings.enable_marquee.label",
                 "type": "checkbox"
             }
         ]
@@ -1281,7 +1281,7 @@
         "settings": [
             {
                 "default": true,
-                "id": "show_vendor",
+                "id": "pagetransitions_enabled",
                 "label": "t:settings_schema.pagetransitions.settings.pagetransitions_enabled",
                 "type": "checkbox"
             }

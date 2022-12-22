@@ -1159,13 +1159,16 @@ a,
     display: none;
 
     &.shown {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 40px;
         width: 100%;
         background: rgb(var(--marquee-background));
         position: relative;
         overflow: hidden;
-        box-shadow: 1px 1px 1px rgb(var(--nero));
+        -webkit-box-shadow: 1px 1px 1px rgb(var(--nero));
+                box-shadow: 1px 1px 1px rgb(var(--nero));
     }
 
     &.mobile-hidden {
@@ -1179,6 +1182,8 @@ a,
     }
 
     &__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 40px;
         color: rgb(var(--marquee-foreground));
@@ -1186,6 +1191,8 @@ a,
         z-index: 1;
 
         ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             white-space: nowrap;
             padding: 0;
@@ -1193,14 +1200,14 @@ a,
             margin: 0;
 
             li {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                align-items: center;
-                -webkit-animation-name: marquee;
-                animation-name: marquee;
-                -webkit-animation-timing-function: linear;
-                animation-timing-function: linear;
-                -webkit-animation-iteration-count: infinite;
-                animation-iteration-count: infinite;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-animation: marquee 2s linear infinite;
+                        animation: marquee 2s linear infinite;
 
                 .marquee-banner__item {
                     div {
@@ -1216,7 +1223,8 @@ a,
 
             &:hover {
                 li {
-                    animation-play-state: paused;
+                    -webkit-animation-play-state: paused;
+                            animation-play-state: paused;
                 }
             }
         }
@@ -1225,19 +1233,15 @@ a,
 
 @keyframes marquee {
     100% {
-        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
     }
 }
 
 @-webkit-keyframes marquee {
     100% {
-        transform: translateX(-100%);
-    }
-}
-
-@-moz-keyframes marquee {
-    100% {
-        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
     }
 }
 

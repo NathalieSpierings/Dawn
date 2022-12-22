@@ -2265,7 +2265,7 @@
 				},
 				"loop": {
 					"label": "Number of repetitions of content"
-				},
+				},		
 				"show_marquee": {
 					"label": "Show marquee"
 				},
@@ -3143,8 +3143,8 @@
 		"marquee_banner": {
 			"name": "Marquee banner",
 			"settings": {
-				"show_marquee": {
-					"label": "Show marquee"
+				"enable_marquee": {
+					"label": "Enable marquee"
 				}
 			}
 		},
