@@ -1536,6 +1536,89 @@
     ]
   },
   {
+		"name": "Cookie Consent",
+		"settings": [
+			{
+				"type": "checkbox",
+				"id": "cookie_consent_enable",
+				"label": "Enable cookie consent",
+				"default": true
+			},			
+      {
+				"type": "text",
+				"id": "cookie_title",
+				"label": "Heading",
+				"default": "Cookie"
+			},
+      {
+				"type": "html",
+				"id": "cookie_consent_message",
+				"label": "Message",
+				"default": "This website uses cookies to ensure you get the best experience on our website.<a href=\"/policies/privacy-policy\">Privacy Policy</a>"
+			},
+      {
+				"type": "text",
+				"id": "cookie_necessary_heading",
+				"label": "Necessary heading",
+				"default": "Necessary"
+			},
+      {
+				"type": "html",
+				"id": "cookie_necessary_message",
+				"label": "Necessary message",
+				"default": "These settings are necessary to enable the basic functions of the website."
+			},
+      {
+				"type": "text",
+				"id": "cookie_analytics_heading",
+				"label": "Analytics heading",
+				"default": "Analytics"
+			},
+      {
+				"type": "html",
+				"id": "cookie_analytics_message",
+				"label": "Analytics message",
+				"default": "These settings are necessary to enable the basic functions of the website."
+			},
+      {
+				"type": "text",
+				"id": "cookie_necessary",
+				"label": "Necessary heading",
+				"default": "Necessary"
+			},
+			{
+				"type": "text",
+				"id": "cookie_agree_button",
+				"label": "Button agree label",
+				"default": "Agree"
+			},
+			{
+				"type": "text",
+				"id": "cookie_consent_button",
+				"label": "Button dismiss label",
+				"default": "Not agree"
+			},
+      {
+				"type": "text",
+				"id": "cookie_adjust_button",
+				"label": "Button adjust label",
+				"default": "Adjust"
+			},      
+      {
+				"type": "text",
+				"id": "cookie_save_button",
+				"label": "Button save label",
+				"default": "Save"
+			},
+      {
+				"type": "text",
+				"id": "cookie_deny_button",
+				"label": "Button deny label",
+				"default": "Deny"
+			}
+		]
+	},
+  {
     "name": "t:settings_schema.marquee_banner.name",
     "settings": [      
       {
