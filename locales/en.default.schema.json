@@ -362,6 +362,14 @@
           "label": "Vertical space"
         }
       }
+    },
+    "pagetransitions": {
+      "name": "Page transitions",
+      "settings": {
+        "pagetransitions_enabled": {
+          "label": "Enable page transitions"
+        }       
+      }
     }
   },
   "sections": {

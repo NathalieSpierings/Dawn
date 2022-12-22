@@ -1,0 +1,112 @@
+@import 'variables';
+
+
+:root{
+    --fontsize-xxs: clamp(1rem, 0.1vw + 0.9rem, 1rem);
+    --fontsize-xs: clamp(1.2rem, 0.1vw + 1.2rem, 1.3rem);
+    --fontsize-sm: clamp(1.3rem, 0.1vw + 1.2rem, 1.4rem);
+    --fontsize-base: clamp(1.5rem, 0.2vw + 1.4rem, 1.6rem);
+    --fontsize-md: clamp(1.7rem, 0.2vw + 1.8rem, 1.8rem);
+    --fontsize-lg: clamp(2.3rem, 0.3vw + 2.2rem, 2.5rem);
+    --fontsize-xl: clamp(2.9rem, 0.3vw + 2.8rem, 3.1rem);
+    --fontsize-xxl: clamp(3.7rem, 0.4vw + 3.5rem, 3.9rem);
+}
+
+// === Page transitions
+#trans{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(var(--dark));
+    color: rgb(var(--white));
+    pointer-events: none;
+    transform: scaleY(0);
+    position: absolute;
+    z-index: 100;
+}
+
+.trans-brand {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(var(--dark));
+
+    &__container {
+        position: relative;
+        width: 300px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            display: inline-flex;
+        }
+    }
+
+    &__name {
+        position: absolute;
+        font-size: 3.8rem;
+        font-weight: 900;
+        font-family: var(--fontstack1);
+
+        &--first {
+            color: rgba(var(--light), 0.5);
+        }
+
+        &--second {
+            span {
+                color: rgb(var(--light));
+                animation: trans-brand 4s linear infinite;
+                transform: rotateY(-90deg);
+                animation-delay: 0.2s;
+
+                &:nth-child(2) {
+                    animation-delay: 0.4s;
+                }
+                &:nth-child(3) {
+                    animation-delay: 0.6s;
+                }
+                &:nth-child(4) {
+                    animation-delay: 0.8s;
+                }
+                &:nth-child(5) {
+                    animation-delay: 1s;
+                }
+                &:nth-child(6) {
+                    animation-delay: 1.2s;
+                }
+                &:nth-child(7) {
+                    animation-delay: 1.4s;
+                }
+                &:nth-child(7) {
+                    animation-delay: 1.6s;
+                }
+            }
+        }
+    }
+}
+
+@keyframes trans-brand {
+    0% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    25% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    50% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    75% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+    100% {
+        opacity: 0;
+        transform: rotateY(-90deg);
+    }
+}

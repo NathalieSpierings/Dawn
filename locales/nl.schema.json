@@ -362,6 +362,14 @@
           "info": "Wordt verkleind tot 32x32 pixels"
         }
       }
+    },
+    "pagetransitions": {
+      "name": "Page transitions",
+      "settings": {
+        "pagetransitions_enabled": {
+          "label": "Enable page transitions"
+        }       
+      }
     }
   },
   "sections": {
