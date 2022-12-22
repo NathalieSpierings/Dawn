@@ -253,7 +253,51 @@
 			}
 		},
 		"buttons": {
-			"name": "Knoppen"
+			"name": "Knoppen",
+			"header1": "Knop 1",
+			"header2": "Knop 2",
+			"button_type": {
+				"label": "Knop soort",
+				"options__1": {
+					"label": "Normaal"
+				},
+				"options__2": {
+					"label": "Omlijnd"
+				},
+				"options__3": {
+					"label": "Kader"
+				}				
+			},
+			"button_style": {
+				"label": "Knop stijl",
+				"options__1": {
+					"label": "Standaard"
+				},
+				"options__2": {
+					"label": "Licht"
+				},
+				"options__3": {
+					"label": "Accent 1"
+				},
+				"options__4": {
+					"label": "Accent 2"
+				}				
+			},
+			"button_size": {
+				"label": "Knop grootte",
+				"options__1": {
+					"label": "Klein"
+				},
+				"options__2": {
+					"label": "Standaard"
+				},
+				"options__3": {
+					"label": "Medium"
+				},
+				"options__4": {
+					"label": "Groot"
+				}				
+			}
 		},
 		"variant_pills": {
 			"name": "Variantopties",
@@ -1048,6 +1092,12 @@
 		"image-banner": {
 			"name": "Bannerafbeelding",
 			"settings": {
+				"header1": {
+					"content": "Banner soort"
+				},
+				"parallax": {
+					"label": "Parallax"
+				},
 				"image": {
 					"label": "Eerste afbeelding"
 				},
