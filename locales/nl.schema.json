@@ -387,8 +387,33 @@
         "padding_top": "Opvulling boven",
         "padding_bottom": "Opvulling onder"
       },
+      "text": "Tekst",
       "spacing": "Afstand",
+      "fontfamily": {
+				"label": "Lettertype",
+				"options__1": {
+					"label": "Lettertype 1"
+				},
+				"options__2": {
+					"label": "Lettertype 2"
+				},
+				"options__3": {
+					"label": "Lettertype 3"
+				}
+			},
       "colors": {
+		    "light": {
+          "label": "Licht"
+        },
+        "dark": {
+          "label": "Donker"
+        },
+        "scheme_1": {
+          "label": "Thema achtergrond 1"
+        },
+        "scheme_2": {
+          "label": "Thema achtergrond 2"
+        },
         "accent_1": {
           "label": "Accent 1"
         },
@@ -406,6 +431,18 @@
         },
         "label": "Kleurschema",
         "has_cards_info": "Werk je thema-instellingen bij om het kleurschema van de kaart te wijzigen."
+      },
+      "alignment": {
+        "label": "Uitlijning",
+        "options__1": {
+          "label": "Links"
+        },
+        "options__2": {
+          "label": "Midden"
+        },
+        "options__3": {
+          "label": "Rechts"
+        }
       },
       "heading_size": {
         "label": "Grootte kop",

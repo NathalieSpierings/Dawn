@@ -387,8 +387,33 @@
         "padding_top": "Top padding",
         "padding_bottom": "Bottom padding"
       },
+      "text": "Text",
       "spacing": "Spacing",
+      "fontfamily": {
+				"label": "Font-family",
+				"options__1": {
+					"label": "Font-family 1"
+				},
+				"options__2": {
+					"label": "Font-family 2"
+				},
+				"options__3": {
+					"label": "Font-family 3"
+				}
+			},
       "colors": {
+        "light": {
+					"label": "Light"
+				},
+				"dark": {
+					"label": "Dark"
+				},
+				"scheme_1": {
+					"label": "Theme background 1"
+				},
+				"scheme_2": {
+					"label": "Theme background 2"
+				},
         "accent_1": {
           "label": "Accent 1"
         },
@@ -407,6 +432,18 @@
         "label": "Color scheme",
         "has_cards_info": "To change the card color scheme, update your theme settings."
       },
+      "alignment": {
+				"label": "Alignment",
+				"options__1": {
+					"label": "Left"
+				},
+				"options__2": {
+					"label": "Center"
+				},
+				"options__3": {
+					"label": "Right"
+				}
+			},
       "heading_size": {
         "label": "Heading size",
         "options__1": {
