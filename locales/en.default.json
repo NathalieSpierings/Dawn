@@ -55,6 +55,9 @@
       "next_slide": "Slide right",
       "previous_slide": "Slide left",
       "name": "Slider"
+    },
+    "validation": {
+      "required": "Please fill out this field."
     }
   },
   "newsletter": {
@@ -233,7 +236,7 @@
       "subtext": "404"
     }
   },
-  "sections": {
+  "sections": {    
     "header": {
       "announcement": "Announcement",
       "menu": "Menu",

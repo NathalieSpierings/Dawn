@@ -370,6 +370,14 @@
           "label": "Enable page transitions"
         }       
       }
+    },
+    "marquee_banner": {
+      "name": "Marquee banner",
+      "settings": {
+        "show_marquee": {
+          "label": "Show marquee"
+        }       
+      }
     }
   },
   "sections": {
@@ -415,6 +423,45 @@
         }
       }
     },
+    "marquee_banner": {
+      "name": "Marquee banner",
+      "settings": {
+        "header": {
+          "content": "Layout"
+        },
+        "show_marquee": {
+          "label": "Show marquee"
+        },
+        "bg_color": {
+          "label": "Background color"
+        },
+        "fg_color": {
+          "label": "Foreground color"
+        },
+        "fg_color_span": {
+          "label": "Foreground color HTML SPAN tag"
+        },
+        "content": {
+          "label": "Content"
+        },
+        "url": {
+          "label": "Url"
+        },
+        "animation": {
+          "label": "Enable horizontal text animation"
+        },
+        "loop": {
+          "label": "Number of repetitions of content"
+        },
+        "time": {
+          "label": "Time animation",
+          "info": "Units in seconds"
+        },
+        "show_on_mobile": {
+          "label": "Show on mobile"
+        } 
+      }
+    },
     "announcement-bar": {
       "name": "Announcement bar",
       "blocks": {
@@ -439,6 +486,78 @@
             "link": {
               "label": "Link"
             }
+          }
+        }
+      }
+    },
+    "header": {
+      "name": "Header",
+      "settings": {
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Edit your logo in [theme settings](/editor?context=theme&category=logo)."
+        },
+        "logo_position": {
+          "label": "Desktop logo position",
+          "options__1": {
+            "label": "Middle left"
+          },
+          "options__2": {
+            "label": "Top left"
+          },
+          "options__3": {
+            "label": "Top center"
+          },
+          "options__4": {
+            "label": "Middle center"
+          }
+        },
+        "menu": {
+          "label": "Menu"
+        },
+        "menu_type_desktop": {
+          "label": "Desktop menu type",
+          "info": "Menu type is automatically optimized for mobile.",
+          "options__1": {
+            "label": "Dropdown"
+          },
+          "options__2": {
+            "label": "Mega menu"
+          }
+        },
+        "show_line_separator": {
+          "label": "Show separator line"
+        },
+        "sticky_header_type": {
+          "label": "Sticky header",
+          "options__1": {
+            "label": "None"
+          },
+          "options__2": {
+            "label": "On scroll up"
+          },
+          "options__3": {
+            "label": "Always"
+          },
+          "options__4": {
+            "label": "Always, reduce logo size"
+          }
+        },
+        "margin_bottom": {
+          "label": "Bottom margin"
+        },
+        "mobile_layout": {
+          "content": "Mobile layout"
+        },
+        "mobile_logo_position": {
+          "label": "Mobile logo position",
+          "options__1": {
+            "label": "Center"
+          },
+          "options__2": {
+            "label": "Left"
           }
         }
       }
@@ -967,78 +1086,6 @@
         },
         "margin_top": {
           "label": "Top margin"
-        }
-      }
-    },
-    "header": {
-      "name": "Header",
-      "settings": {
-        "logo_header": {
-          "content": "Logo"
-        },
-        "logo_help": {
-          "content": "Edit your logo in [theme settings](/editor?context=theme&category=logo)."
-        },
-        "logo_position": {
-          "label": "Desktop logo position",
-          "options__1": {
-            "label": "Middle left"
-          },
-          "options__2": {
-            "label": "Top left"
-          },
-          "options__3": {
-            "label": "Top center"
-          },
-          "options__4": {
-            "label": "Middle center"
-          }
-        },
-        "menu": {
-          "label": "Menu"
-        },
-        "menu_type_desktop": {
-          "label": "Desktop menu type",
-          "info": "Menu type is automatically optimized for mobile.",
-          "options__1": {
-            "label": "Dropdown"
-          },
-          "options__2": {
-            "label": "Mega menu"
-          }
-        },
-        "show_line_separator": {
-          "label": "Show separator line"
-        },
-        "sticky_header_type": {
-          "label": "Sticky header",
-          "options__1": {
-            "label": "None"
-          },
-          "options__2": {
-            "label": "On scroll up"
-          },
-          "options__3": {
-            "label": "Always"
-          },
-          "options__4": {
-            "label": "Always, reduce logo size"
-          }
-        },
-        "margin_bottom": {
-          "label": "Bottom margin"
-        },
-        "mobile_layout": {
-          "content": "Mobile layout"
-        },
-        "mobile_logo_position": {
-          "label": "Mobile logo position",
-          "options__1": {
-            "label": "Center"
-          },
-          "options__2": {
-            "label": "Left"
-          }
         }
       }
     },

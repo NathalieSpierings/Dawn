@@ -370,6 +370,14 @@
           "label": "Enable page transitions"
         }       
       }
+    },
+    "marquee_banner": {
+      "name": "Marquee banner",
+      "settings": {
+        "show_marquee": {
+          "label": "Marquee tonen"
+        }       
+      }
     }
   },
   "sections": {
@@ -415,6 +423,45 @@
         }
       }
     },
+    "marquee_banner": {
+      "name": "Marquee banner",
+      "settings": {
+        "header": {
+          "content": "Opmaak"
+        },
+        "show_marquee": {
+          "label": "Marquee tonen"
+        },
+        "bg_color": {
+          "label": "Achtergrond kleur"
+        },
+        "fg_color": {
+          "label": "Voorgrond kleur"
+        },
+        "fg_color_span": {
+          "label": "Voorgrond kleur HTML SPAN tag"
+        },
+        "content": {
+          "label": "Content"
+        },
+        "url": {
+          "label": "Url"
+        },
+        "animation": {
+          "label": "Schakel horizontale tekstanimatie in"
+        },
+        "loop": {
+          "label": "Aantal herhalingen van inhoud"
+        },
+        "time": {
+          "label": "Tijd animatie",
+          "info": "Eenheden in seconden"
+        },
+        "show_on_mobile": {
+          "label": "Toon op mobiel"
+        } 
+      }
+    },
     "announcement-bar": {
       "name": "Aankondigingsbalk",
       "blocks": {
@@ -439,6 +486,78 @@
             "link": {
               "label": "Link"
             }
+          }
+        }
+      }
+    },    
+    "header": {
+      "name": "Koptekst",
+      "settings": {
+        "logo_position": {
+          "label": "Positie van logo voor desktop",
+          "options__1": {
+            "label": "Midden links"
+          },
+          "options__2": {
+            "label": "Linksboven"
+          },
+          "options__3": {
+            "label": "Centraal boven"
+          },
+          "options__4": {
+            "label": "Centraal midden"
+          }
+        },
+        "menu": {
+          "label": "Menu"
+        },
+        "show_line_separator": {
+          "label": "Scheidingsregel tonen"
+        },
+        "margin_bottom": {
+          "label": "Ondermarge"
+        },
+        "menu_type_desktop": {
+          "label": "Menutype voor desktop",
+          "info": "Menutype wordt automatisch aangepast voor mobiele apparaten.",
+          "options__1": {
+            "label": "Vervolgkeuzelijst"
+          },
+          "options__2": {
+            "label": "Megamenu"
+          }
+        },
+        "mobile_layout": {
+          "content": "Opmaak voor mobiel"
+        },
+        "mobile_logo_position": {
+          "label": "Positie logo op mobiel",
+          "options__1": {
+            "label": "Midden"
+          },
+          "options__2": {
+            "label": "Links"
+          }
+        },
+        "logo_header": {
+          "content": "Logo"
+        },
+        "logo_help": {
+          "content": "Bewerk je logo in [thema-instellingen](/editor?context=theme&category=logo)."
+        },
+        "sticky_header_type": {
+          "label": "Sticky header",
+          "options__1": {
+            "label": "Geen"
+          },
+          "options__2": {
+            "label": "Bij omhoog scrollen"
+          },
+          "options__3": {
+            "label": "Altijd"
+          },
+          "options__4": {
+            "label": "Altijd; verklein logo"
           }
         }
       }
@@ -818,78 +937,6 @@
         },
         "show_policy": {
           "label": "Links naar beleid tonen"
-        }
-      }
-    },
-    "header": {
-      "name": "Koptekst",
-      "settings": {
-        "logo_position": {
-          "label": "Positie van logo voor desktop",
-          "options__1": {
-            "label": "Midden links"
-          },
-          "options__2": {
-            "label": "Linksboven"
-          },
-          "options__3": {
-            "label": "Centraal boven"
-          },
-          "options__4": {
-            "label": "Centraal midden"
-          }
-        },
-        "menu": {
-          "label": "Menu"
-        },
-        "show_line_separator": {
-          "label": "Scheidingsregel tonen"
-        },
-        "margin_bottom": {
-          "label": "Ondermarge"
-        },
-        "menu_type_desktop": {
-          "label": "Menutype voor desktop",
-          "info": "Menutype wordt automatisch aangepast voor mobiele apparaten.",
-          "options__1": {
-            "label": "Vervolgkeuzelijst"
-          },
-          "options__2": {
-            "label": "Megamenu"
-          }
-        },
-        "mobile_layout": {
-          "content": "Opmaak voor mobiel"
-        },
-        "mobile_logo_position": {
-          "label": "Positie logo op mobiel",
-          "options__1": {
-            "label": "Midden"
-          },
-          "options__2": {
-            "label": "Links"
-          }
-        },
-        "logo_header": {
-          "content": "Logo"
-        },
-        "logo_help": {
-          "content": "Bewerk je logo in [thema-instellingen](/editor?context=theme&category=logo)."
-        },
-        "sticky_header_type": {
-          "label": "Sticky header",
-          "options__1": {
-            "label": "Geen"
-          },
-          "options__2": {
-            "label": "Bij omhoog scrollen"
-          },
-          "options__3": {
-            "label": "Altijd"
-          },
-          "options__4": {
-            "label": "Altijd; verklein logo"
-          }
         }
       }
     },

@@ -1534,5 +1534,16 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "t:settings_schema.marquee_banner.name",
+    "settings": [      
+      {
+        "type": "checkbox",
+        "id": "show_marquee",
+        "label": "t:settings_schema.marquee_banner.settings.show_marquee.label",
+        "default": false
+      }
+    ]
   }
 ]
